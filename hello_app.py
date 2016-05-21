@@ -5,6 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return "Welcome to Billy's Ranch"
+def hello():
     return "Sponsored by Action News; Bringing action to you!"
     return ""
     return "Billy's Ranch can be found in your local black market"
