@@ -5,10 +5,13 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return "Welcome to Billy's Ranch"
+@app.route("/")
 def hello():
     return "Sponsored by Action News; Bringing action to you!"
     return ""
+def hello():
     return "Billy's Ranch can be found in your local black market"
+def hello():
     return ""
 
 if __name__ == "__main__":
